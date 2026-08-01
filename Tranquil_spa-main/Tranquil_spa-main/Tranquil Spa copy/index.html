@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranquil International Spa | Premium Luxury Wellness Bengaluru</title>
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Escape the everyday and restore balance. Discover premium massage therapies, body scrubs, facials, and holistic wellness at Bengaluru's premier luxury spa sanctuary.">
+    <meta name="keywords" content="luxury spa Bengaluru, aromatherapy, Balinese massage, Swedish massage, Thai massage, candle therapy, body scrub Koramangala">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+                <!-- 1. Navigation Bar -->
+    <nav class="navbar" id="main-nav">
+        <!-- Desktop Symmetric Center-Logo Layout -->
+        <div class="nav-container-new">
+            <!-- Row 1: Left Links | Center Emblem | Right Links -->
+            <div class="nav-row nav-row-top">
+                <ul class="nav-menu-side nav-menu-left">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item dropdown ">
+                        <a href="index.html#experiences" class="nav-link dropdown-toggle" id="experiences-dropdown">Experiences <span class="chevron">&#9662;</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="aroma-therapy.html">Aroma Therapy</a></li>
+                            <li><a href="balinese-therapy.html">Balinese Therapy</a></li>
+                            <li><a href="body-scrub-therapy.html">Body Scrub Therapy</a></li>
+                            <li><a href="deep-tissue-therapy.html">Deep Tissue Therapy</a></li>
+                            <li><a href="signature-candle-therapy.html">Signature Candle Therapy</a></li>
+                            <li><a href="swedish-therapy.html">Swedish Therapy</a></li>
+                            <li><a href="thai-therapy.html">Thai Therapy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="about-us.html" class="nav-link ">About</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link ">Gallery</a></li>
+                </ul>
+
+                <a href="index.html" class="nav-emblem-wrapper">
+                    <img src="logo-emblem.png" alt="Tranquil Emblem" class="logo-emblem">
+                </a>
+
+                <ul class="nav-menu-side nav-menu-right">
+                    <li class="nav-item"><a href="blog.html" class="nav-link ">Blog</a></li>
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link ">Contact</a></li>
+                    <li class="nav-item nav-cta-wrapper">
+                        <a href="contact-us.html" class="btn btn-nav-cta">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Row 2: Divider Line -->
+            <div class="nav-line-divider"></div>
+
+            <!-- Row 3: Logo Brand Text -->
+            <div class="nav-row nav-row-bottom">
+                <a href="index.html" class="nav-brand-text-wrapper">
+                    <div class="nav-brand-title">TRANQUIL</div>
+                    <div class="nav-brand-subtitle">INTERNATIONAL SPA</div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Mobile Header Bar (Standalone) -->
+        <div class="nav-container-mobile">
+            <a href="index.html" class="nav-logo-mobile">
+                <img src="logo-light-text.png" alt="Tranquil Logo" class="logo-image-mobile">
+            </a>
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Drawer Menu Links -->
+        <ul class="nav-menu-mobile" id="nav-menu">
+            <li><a href="index.html" class="nav-link-mobile">Home</a></li>
+            <li><a href="about-us.html" class="nav-link-mobile">About</a></li>
+            <li class="nav-item-mobile-dropdown">
+                <a href="#" class="nav-link-mobile dropdown-toggle-mobile" id="experiences-dropdown-mobile">Experiences <span class="chevron">&#9662;</span></a>
+                <ul class="dropdown-menu-mobile">
+                    <li><a href="aroma-therapy.html">Aroma Therapy</a></li>
+                    <li><a href="balinese-therapy.html">Balinese Therapy</a></li>
+                    <li><a href="body-scrub-therapy.html">Body Scrub Therapy</a></li>
+                    <li><a href="deep-tissue-therapy.html">Deep Tissue Therapy</a></li>
+                    <li><a href="signature-candle-therapy.html">Signature Candle Therapy</a></li>
+                    <li><a href="swedish-therapy.html">Swedish Therapy</a></li>
+                    <li><a href="thai-therapy.html">Thai Therapy</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html" class="nav-link-mobile">Gallery</a></li>
+            <li><a href="blog.html" class="nav-link-mobile">Blog</a></li>
+            <li><a href="contact-us.html" class="nav-link-mobile">Contact</a></li>
+            <li style="margin-top: 1.5rem; list-style: none; padding: 0;">
+                <a href="contact-us.html" class="btn btn-nav-cta" style="display: block; text-align: center; width: 100%; box-sizing: border-box;">Book Now</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 2. Cinematic Fullscreen Hero -->
+    <header class="hero" id="hero">
+        <div class="hero-bg-wrapper">
+            <!-- Fallback Image (always visible underneath/behind the video) -->
+            <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/asds.png" alt="Tranquil Luxury Ambience" class="hero-image">
+            
+            <!-- Background Video Option (Autoplays, loops, muted, playsinline) -->
+            <video class="hero-video" autoplay loop muted playsinline style="background: transparent;">
+                <source src="Assets/tranquil_hero.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">Explore our iconic<br>luxury wellness<br>sanctuary</h1>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span class="scroll-line"></span>
+        </div>
+    </header>
+
+    <!-- 3. About Section -->
+    <section class="section about-section" id="about">
+        <div class="container grid-two-columns">
+            <div class="about-visual animate-scroll">
+                <div class="about-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/yui6yuj.png" alt="Spa Therapist Preparing Oils" class="about-image">
+                </div>
+            </div>
+            <div class="about-text animate-scroll">
+                <span class="section-tag">Our Sanctuary</span>
+                <h2 class="section-title">Welcome to Tranquil International Spa</h2>
+                <div class="text-block">
+                    <p class="lead-text">Discover a haven of peace in the vibrant heart of Bengaluru. Step into a world of pure bliss and escape the hustle of city life.</p>
+                    <p>At Tranquil International Spa, we believe wellness is a holistic journey. Our spa offers an array of luxurious treatments, from revitalizing massage therapies and body scrubs to nourishing facials and homeopathy. Our expert therapists skillfully blend ancient techniques with modern practices to ensure a deeply therapeutic experience that restores equilibrium to your body, mind, and spirit.</p>
+                    <p>Immerse yourself in a serene environment designed with natural textures, soft ambient lighting, and gentle trickling water. Whether you seek deep muscle relaxation, tension relief, or a complete wellness reset, our personalized services cater to your unique needs.</p>
+                </div>
+                <a href="#experiences" class="btn btn-text">Discover the Experiences <span>&rarr;</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Signature Therapies Showcase -->
+    <section class="section experiences-section" id="experiences">
+        <div class="container text-center animate-scroll">
+            <span class="section-tag">Treatments</span>
+            <h2 class="section-title">Signature Therapies</h2>
+            <p class="section-subtitle">A curated collection of traditional and modern wellness rituals tailored by our specialist practitioners.</p>
+        </div>
+        
+        <div class="container grid-three-columns therapies-grid">
+            <!-- Card 1: Aroma Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="aromatherapy">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/asds.jpg" alt="Aromatherapy Session" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Aroma Therapy</h3>
+                    <p class="therapy-card-desc">A holistic healing practice using pure essential plant oils to alleviate anxiety, stimulate energy flow, and ease stress.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">60 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('aromatherapy')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Balinese Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="balinese">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/as4e.jpg" alt="Balinese Massage" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Balinese Therapy</h3>
+                    <p class="therapy-card-desc">A traditional Indonesian ritual blending deep tissue strokes, acupressure, and aromatherapy to harmonize body and spirit.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">60 - 90 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('balinese')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Body Scrub Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="bodyscrub">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/s4edff.jpg" alt="Exfoliating Body Scrub" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Body Scrub Therapy</h3>
+                    <p class="therapy-card-desc">An exfoliating treatment using natural sea salt and herbal blends to remove dead skin cells and boost circulation.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">45 - 60 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('bodyscrub')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Deep Tissue Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="deeptissue">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/dfgh565r.jpg" alt="Deep Tissue Therapy" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Deep Tissue Therapy</h3>
+                    <p class="therapy-card-desc">Firm pressure and slow strokes target deep muscle layers, releasing chronic tension, muscle knots, and pain.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">60 - 90 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('deeptissue')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Signature Candle Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="candle">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/354ergdf.jpg" alt="Scented Candle Therapy" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Signature Candle Therapy</h3>
+                    <p class="therapy-card-desc">A sensory escape using cosmetic warm soy oil candle massage for deep muscular warming and intense skin hydration.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">75 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('candle')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Swedish Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="swedish">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/New-Project-2023-08-08T152225.898.png" alt="Swedish Therapy Session" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Swedish Therapy</h3>
+                    <p class="therapy-card-desc">A classic relaxing technique utilizing long gliding strokes and kneading to release superficial muscle tension.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">60 - 90 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('swedish')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 7: Thai Therapy -->
+            <div class="therapy-card animate-scroll" data-therapy="thai" style="grid-column: span 1 / auto;">
+                <div class="therapy-card-image-wrapper">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/sa65rtgdv.jpg" alt="Thai Stretching Therapy" class="therapy-card-image">
+                </div>
+                <div class="therapy-card-content">
+                    <h3 class="therapy-card-title">Thai Therapy</h3>
+                    <p class="therapy-card-desc">An active floor-mat ritual combining acupressure compressions and deep stretches to restore energetic flow.</p>
+                    <div class="therapy-card-footer">
+                        <span class="therapy-duration">90 - 120 Minutes</span>
+                        <button class="btn btn-card-details" onclick="openTherapyModal('thai')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Wellness Philosophy -->
+    <section class="section philosophy-section" id="philosophy">
+        <div class="container animate-scroll text-center">
+            <span class="section-tag">Our Path</span>
+            <h2 class="section-title">The Four Pillars of Wellness</h2>
+            <p class="section-subtitle">Our method weaves together ancient healing traditions and customized touches to help you discover deep inner harmony.</p>
+        </div>
+
+        <div class="steps-timeline container">
+
+            <!-- Step 01: Content Left, Image Right -->
+            <div class="step-row animate-scroll">
+                <div class="step-content step-content--left">
+                    <div class="step-number">01</div>
+                    <h3 class="step-heading">Relax</h3>
+                    <p class="step-desc">Calm the active mind. Our sensory environments feature soft lighting and tranquil acoustics to help lower heart rates and quiet outer distractions, triggering your body's natural state of rest.</p>
+                </div>
+                <div class="step-spine">
+                    <div class="step-dot"></div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="step-visual">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/sdf54r.jpg" alt="Relaxation Ambience" class="step-img">
+                </div>
+            </div>
+
+            <!-- Step 02: Content Right, Image Left -->
+            <div class="step-row step-row--reverse animate-scroll">
+                <div class="step-visual">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/high-angle-woman-holding-candle-1.jpg" alt="Restoration Oils" class="step-img">
+                </div>
+                <div class="step-spine">
+                    <div class="step-dot"></div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="step-content step-content--right">
+                    <div class="step-number">02</div>
+                    <h3 class="step-heading">Restore</h3>
+                    <p class="step-desc">Repair physical strain. Skilled practitioners utilize targeted pressure, exfoliation, and hot candle wax treatments to soothe deep muscle soreness, ease knots, and re-oxygenate stiff tissues.</p>
+                </div>
+            </div>
+
+            <!-- Step 03: Content Left, Image Right -->
+            <div class="step-row animate-scroll">
+                <div class="step-content step-content--left">
+                    <div class="step-number">03</div>
+                    <h3 class="step-heading">Reconnect</h3>
+                    <p class="step-desc">Establish holistic alignment. Reconnect physical movement with breathwork using ancient stretching rituals like Thai massage. Discover a renewed sense of self-awareness and core balance.</p>
+                </div>
+                <div class="step-spine">
+                    <div class="step-dot"></div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="step-visual">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/sdf54r.jpg" alt="Mindful Reconnection" class="step-img">
+                </div>
+            </div>
+
+            <!-- Step 04: Content Right, Image Left -->
+            <div class="step-row step-row--reverse animate-scroll">
+                <div class="step-visual">
+                    <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/awe5ersd.png" alt="Holistic Healing" class="step-img">
+                </div>
+                <div class="step-spine">
+                    <div class="step-dot"></div>
+                </div>
+                <div class="step-content step-content--right">
+                    <div class="step-number">04</div>
+                    <h3 class="step-heading">Heal</h3>
+                    <p class="step-desc">Restore long-term vitality. By combining regular massage therapy, tailored skincare analyses, and personalized homeopathic advice, we support your body's lasting health cycles.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. Featured Experience: Signature Candle Therapy -->
+    <section class="featured-experience" id="featured-experience">
+        <div class="featured-bg-wrapper">
+            <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/354ergdf.jpg" alt="Signature Candle Experience" class="featured-image">
+        </div>
+        <div class="featured-overlay"></div>
+        <div class="featured-content container">
+            <span class="featured-tag">Exclusive Ritual</span>
+            <h2 class="featured-title">Signature Candle Therapy</h2>
+            <p class="featured-desc">A truly unique sensory relaxation treatment. Warm cosmetic soy wax infused with customized essential oils is poured directly onto the body and massaged into the skin, offering intense hydration and deep thermal muscle relaxation.</p>
+            <div class="featured-details">
+                <span>Duration: 75 Mins</span>
+                <span class="detail-divider">|</span>
+                <span>Includes: Organic Oils & Soy Wax</span>
+            </div>
+            <a href="contact-us.html?therapy=Signature%20Candle%20Therapy" class="btn-featured">Reserve Experience &nbsp;&rarr;</a>
+        </div>
+    </section>
+
+    <!-- 7. Masonry Media Gallery -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container text-center animate-scroll">
+            <span class="section-tag">Media Assets</span>
+            <h2 class="section-title">Our Sanctuary Spaces</h2>
+            <p class="section-subtitle">Take a virtual journey through the peaceful treatment rooms and elegant corridors of our Bangalore oasis.</p>
+            
+            <!-- Category Filter Buttons -->
+            <div class="gallery-filters" id="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="treatment">Treatment Rooms</button>
+                <button class="filter-btn" data-filter="ambience">Ambience</button>
+            </div>
+        </div>
+
+        <div class="container gallery-grid masonry" id="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item interior" onclick="openLightbox(0)">
+                <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/IMG-2741-scaled.jpg" alt="Elegantly lit treatment room" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-title">Treatment Suite</span>
+                    <span class="gallery-item-category">Interior</span>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item treatment" onclick="openLightbox(1)">
+                <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/IMG-2736-scaled.jpg" alt="Plush massage table setup" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-title">Therapy Room</span>
+                    <span class="gallery-item-category">Treatment Rooms</span>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item ambience" onclick="openLightbox(2)">
+                <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/IMG-2733-scaled.jpg" alt="Zen stone and towel aesthetics" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-title">Stone Accents</span>
+                    <span class="gallery-item-category">Ambience</span>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item interior" onclick="openLightbox(3)">
+                <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/IMG-2728-scaled.jpg" alt="Earthy wooden paneling corridor" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-title">Reception Walkway</span>
+                    <span class="gallery-item-category">Interior</span>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item treatment" onclick="openLightbox(4)">
+                <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/IMG-2722-scaled.jpg" alt="Close up of aromatherapy oils ready" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-title">Essential Oil Selection</span>
+                    <span class="gallery-item-category">Treatment Rooms</span>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item ambience" onclick="openLightbox(5)">
+                <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/08/IMG-2721-scaled.jpg" alt="Warm candles and water droplets" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-title">Warm Candle Details</span>
+                    <span class="gallery-item-category">Ambience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container animate-scroll">
+            <span class="section-tag text-center block">Guest Stories</span>
+            <h2 class="section-title text-center">Reviews of Relaxation</h2>
+            
+            <div class="testimonials-slider-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="rating-value">5.0 Rating</span>
+                    </div>
+                    <blockquote class="testimonial-quote">
+                        "After a long week of stress, I visited Tranquil International Spa, and it was an absolute delight! The Swedish therapy by their skilled therapist melted away all my tension, leaving me feeling refreshed and revitalized. The serene ambiance and professional service made it a truly unforgettable experience. I'll be back for more!"
+                    </blockquote>
+                    <cite class="testimonial-author">&mdash; Ananth, Bengaluru</cite>
+                </div>
+                
+                <div class="testimonials-nav">
+                    <button class="nav-arrow prev" onclick="moveTestimonial(-1)" aria-label="Previous review">&#8592;</button>
+                    <span class="testimonial-counter" id="testimonial-counter">1 of 5</span>
+                    <button class="nav-arrow next" onclick="moveTestimonial(1)" aria-label="Next review">&#8594;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Wellness Blog Section -->
+    <section class="section blog-section" id="blog">
+        <div class="container text-center animate-scroll" style="margin-bottom: var(--space-lg);">
+            <span class="section-tag" style="color: var(--accent);">News and Updates</span>
+            <h2 class="section-title" style="font-size: 3rem; font-family: var(--font-heading);">Our latest</h2>
+        </div>
+
+        <div class="container blog-slider-container">
+            <!-- Navigation Arrows overlapping edge cards -->
+            <button class="blog-arrow prev" aria-label="Previous article">&larr;</button>
+            <button class="blog-arrow next" aria-label="Next article">&rarr;</button>
+            
+            <div class="blog-grid-wrapper">
+                <div class="blog-grid" id="blog-grid">
+                    
+                    <!-- Blog Card 1: secrets -->
+                    <article class="blog-card" style="background-color: var(--white); border: 1px solid var(--border-color); display: flex; flex-direction: column; overflow: hidden; cursor: pointer; border-radius: 0;" onclick="openBlogModal('secrets')">
+                        <div class="blog-card-visual" style="height: 200px; overflow: hidden;">
+                            <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/awe5ersd.png" alt="Mother's Day Silence Gift" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+                        </div>
+                        <div class="blog-card-content" style="padding: var(--space-md); display: flex; flex-direction: column; flex-grow: 1; text-align: left;">
+                            <h3 style="font-family: var(--font-heading); font-size: 1.6rem; font-weight: 400; line-height: 1.2; margin-bottom: var(--space-xs); color: var(--primary);">Mother's Day</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-color); line-height: 1.6; margin-bottom: var(--space-md); flex-grow: 1;">5 reasons silence is the best gift for Mom</p>
+                            
+                            <div class="blog-card-footer" style="display: flex; align-items: center; border-top: 1px solid rgba(0,0,0,0.08); padding-top: var(--space-xs); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-top: auto; width: 100%;">
+                                <span style="font-weight: 600; color: var(--primary); text-decoration: underline;">GIVE MOM THE GIFT OF SILENCE</span>
+                                <span style="margin-left: auto; color: #777777;">May 05, 2025</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Card 2: relaxation -->
+                    <article class="blog-card" style="background-color: var(--white); border: 1px solid var(--border-color); display: flex; flex-direction: column; overflow: hidden; cursor: pointer; border-radius: 0;" onclick="openBlogModal('relaxation')">
+                        <div class="blog-card-visual" style="height: 200px; overflow: hidden;">
+                            <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/asds.jpg" alt="Disconnected by choice forest" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+                        </div>
+                        <div class="blog-card-content" style="padding: var(--space-md); display: flex; flex-direction: column; flex-grow: 1; text-align: left;">
+                            <h3 style="font-family: var(--font-heading); font-size: 1.6rem; font-weight: 400; line-height: 1.2; margin-bottom: var(--space-xs); color: var(--primary);">Disconnected by choice: A guilt-free guide to unplug</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-color); line-height: 1.6; margin-bottom: var(--space-md); flex-grow: 1;">Reduce screen time with a practical, step-by-step guide to help you regain your digital balance.</p>
+                            
+                            <div class="blog-card-footer" style="display: flex; align-items: center; border-top: 1px solid rgba(0,0,0,0.08); padding-top: var(--space-xs); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-top: auto; width: 100%;">
+                                <span style="font-weight: 600; color: var(--primary); text-decoration: underline;">DISCONNECTION</span>
+                                <span style="margin-left: auto; color: #777777;">Jul 06, 2026</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Card 3: beauty -->
+                    <article class="blog-card" style="background-color: var(--white); border: 1px solid var(--border-color); display: flex; flex-direction: column; overflow: hidden; cursor: pointer; border-radius: 0;" onclick="openBlogModal('beauty')">
+                        <div class="blog-card-visual" style="height: 200px; overflow: hidden;">
+                            <img src="https://tranquilinternationalspa.com/wp-content/uploads/2023/07/as4e.jpg" alt="Thermotherapy Pool" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+                        </div>
+                        <div class="blog-card-content" style="padding: var(--space-md); display: flex; flex-direction: column; flex-grow: 1; text-align: left;">
+                            <h3 style="font-family: var(--font-heading); font-size: 1.6rem; font-weight: 400; line-height: 1.2; margin-bottom: var(--space-xs); color: var(--primary);">Introducing thermotherapy</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-color); line-height: 1.6; margin-bottom: var(--space-md); flex-grow: 1;">Inspire the next generation to dream big, to nurture a positive self-image, and to aspire to a life that is healthy, balanced, and aligned.</p>
+                            
+                            <div class="blog-card-footer" style="display: flex; align-items: center; border-top: 1px solid rgba(0,0,0,0.08); padding-top: var(--space-xs); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-top: auto; width: 100%;">
+                                <span style="font-weight: 600; color: var(--primary); text-decoration: underline;">A SMART START FOR TEEN SELF-CARE</span>
+                                <span style="margin-left: auto; color: #777777;">Jun 01, 2026</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Split Contact & Booking Layout -->
+    <section class="section contact-section" id="contact">
+        <div class="container grid-two-columns">
+            
+            <!-- Left Column: Contact info & Google Map -->
+            <div class="contact-info-wrapper animate-scroll">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Plan Your Visit</h2>
+                <p class="lead-text">Set aside time for yourself. Reach out directly or complete the reservation form to schedule your session.</p>
+                
+                <div class="contact-widgets">
+                    <div class="contact-widget">
+                        <h4 class="widget-heading">Sanctuary Location</h4>
+                        <p>U- 231 to 236, 2nd Floor Raheja Arcade,<br>Koramangala 7th Block, Bengaluru, Karnataka - 560095</p>
+                    </div>
+                    
+                    <div class="contact-widget">
+                        <h4 class="widget-heading">Reach Out Directly</h4>
+                        <p><strong>Phones:</strong> <a href="tel:+919563451111" class="contact-link">+91 95634 51111</a> / <a href="tel:+919563453333" class="contact-link">+91 95634 53333</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@tranquilinternationalspa.com" class="contact-link">info@tranquilinternationalspa.com</a></p>
+                    </div>
+
+                    <div class="contact-widget">
+                        <h4 class="widget-heading">Reserve Hours</h4>
+                        <p>Daily: 9:00 AM &mdash; 10:00 PM (IST)</p>
+                    </div>
+                </div>
+
+                <!-- Google Map Mock / Custom Container -->
+                <div class="map-container">
+                    <!-- Leaflet / Google Map Iframe Placeholder -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5917849646875!2d77.6186981!3d12.9339243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e50201625%3A0xea84c8a2b535d5be!2sRaheja%20Arcade!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Tranquil International Spa Location Map">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Right Column: Luxury Appointment Form -->
+            <div class="contact-form-wrapper animate-scroll">
+
+                <!-- Card Header: Dark green banner -->
+                <div class="form-header">
+                    <h3 class="form-title">Schedule A Treatment</h3>
+                    <p class="form-subtitle">Submit details below and a spa coordinator will contact you to finalize your booking.</p>
+                </div>
+
+                <!-- Card Body: Form fields -->
+                <div class="form-body">
+                    <form id="booking-form" class="luxury-form">
+
+                        <div class="form-group">
+                            <label for="form-name" class="form-label">Full Name</label>
+                            <input type="text" id="form-name" class="form-input" placeholder="e.g. Swathi Sharma" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-phone" class="form-label">Phone</label>
+                                <input type="tel" id="form-phone" class="form-input" placeholder="+91 98765 43210" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">Email</label>
+                                <input type="email" id="form-email" class="form-input" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-divider"></div>
+
+                        <div class="form-group">
+                            <label for="form-therapy" class="form-label">Therapy Experience</label>
+                            <select id="form-therapy" class="form-select" required>
+                                <option value="" disabled selected>Select a treatment...</option>
+                                <option value="Aroma Therapy">Aroma Therapy — 60 mins</option>
+                                <option value="Balinese Therapy">Balinese Therapy — 60–90 mins</option>
+                                <option value="Body Scrub Therapy">Body Scrub — 45–60 mins</option>
+                                <option value="Deep Tissue Therapy">Deep Tissue — 60–90 mins</option>
+                                <option value="Signature Candle Therapy">Signature Candle — 75 mins</option>
+                                <option value="Swedish Therapy">Swedish Therapy — 60–90 mins</option>
+                                <option value="Thai Therapy">Thai Therapy — 90–120 mins</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-date" class="form-label">Preferred Date</label>
+                                <input type="date" id="form-date" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-time" class="form-label">Time Slot</label>
+                                <select id="form-time" class="form-select" required>
+                                    <option value="" disabled selected>Select time...</option>
+                                    <option value="Morning">Morning (9 AM – 12 PM)</option>
+                                    <option value="Afternoon">Afternoon (12 – 4 PM)</option>
+                                    <option value="Evening">Evening (4 – 7 PM)</option>
+                                    <option value="Night">Night (7 – 10 PM)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-divider"></div>
+
+                        <div class="form-group">
+                            <label for="form-message" class="form-label">Special Requests <span style="font-weight:400;opacity:0.6;">(Optional)</span></label>
+                            <textarea id="form-message" class="form-textarea" rows="3" placeholder="Mention tension areas, allergies, or preferences..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit-block">Submit Reservation Request</button>
+
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+        <!-- 11. Minimalist Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <!-- Column 1: Brand & Motto -->
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo-wrapper">
+                    <img src="logo-emblem.png" alt="Tranquil Emblem" class="footer-logo-emblem">
+                    <div class="footer-logo-text">
+                        <div class="footer-logo-title">TRANQUIL</div>
+                        <div class="footer-logo-subtitle">INTERNATIONAL SPA</div>
+                    </div>
+                </a>
+                <p class="footer-motto">Sowing silence, energy, beauty, and vitality in the heart of Koramangala, Bengaluru.</p>
+            </div>
+            
+            <!-- Column 2: Navigation Links -->
+            <div class="footer-links">
+                <h5 class="footer-heading">Sanctuary</h5>
+                <ul>
+                    <li><a href="index.html" class="footer-link">Home</a></li>
+                    <li><a href="about-us.html" class="footer-link">About Us</a></li>
+                    <li><a href="gallery.html" class="footer-link">Spaces Gallery</a></li>
+                    <li><a href="blog.html" class="footer-link">Wellness Blog</a></li>
+                    <li><a href="contact-us.html" class="footer-link">Contact & Directions</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Therapy Pages -->
+            <div class="footer-links">
+                <h5 class="footer-heading">Therapies</h5>
+                <ul>
+                    <li><a href="aroma-therapy.html" class="footer-link">Aroma Therapy</a></li>
+                    <li><a href="balinese-therapy.html" class="footer-link">Balinese Therapy</a></li>
+                    <li><a href="body-scrub-therapy.html" class="footer-link">Body Scrub Therapy</a></li>
+                    <li><a href="deep-tissue-therapy.html" class="footer-link">Deep Tissue Therapy</a></li>
+                    <li><a href="signature-candle-therapy.html" class="footer-link">Signature Candle Therapy</a></li>
+                    <li><a href="swedish-therapy.html" class="footer-link">Swedish Therapy</a></li>
+                    <li><a href="thai-therapy.html" class="footer-link">Thai Therapy</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Location Info -->
+            <div class="footer-contact">
+                <h5 class="footer-heading">Office Info</h5>
+                <p>Raheja Arcade, 2nd Floor, Koramangala, Bengaluru</p>
+                <p>Call: +91 95634 51111</p>
+                <p>Email: info@tranquilinternationalspa.com</p>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p class="copyright">&copy; 2026 Tranquil International Spa. All Rights Reserved. Designed with Aspiration.</p>
+            <div class="socials">
+                <a href="#" class="social-icon" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 8H7v3h2v9h3v-9h3l.5-3H12V6.5C12 5.67 12.5 5 13.5 5H15V2h-2.5C10.5 2 9 3.5 9 5.5V8z"/></svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 12. Interactive Modals -->
+    
+    <!-- A. Therapy Detail Modal -->
+    <div class="modal-overlay" id="therapy-modal">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeModal('therapy-modal')" aria-label="Close modal">&times;</button>
+            <div class="modal-body-layout" id="therapy-modal-content">
+                <!-- Dynamically populated via index.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- B. Blog Reading Modal -->
+    <div class="modal-overlay" id="blog-modal">
+        <div class="modal-container scrollable">
+            <button class="modal-close" onclick="closeModal('blog-modal')" aria-label="Close article">&times;</button>
+            <div class="modal-body-layout" id="blog-modal-content">
+                <!-- Dynamically populated via index.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- C. Image Lightbox Modal -->
+    <div class="modal-overlay lightbox-overlay" id="lightbox-modal">
+        <button class="modal-close lightbox-close" onclick="closeModal('lightbox-modal')" aria-label="Close gallery viewer">&times;</button>
+        <button class="lightbox-arrow prev" onclick="changeLightboxImage(-1)" aria-label="Previous photo">&larr;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Gallery Preview" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption">Photo Caption</div>
+        </div>
+        <button class="lightbox-arrow next" onclick="changeLightboxImage(1)" aria-label="Next photo">&rarr;</button>
+    </div>
+
+    <!-- D. Success Reservation Modal -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal-container success-container">
+            <div class="success-icon-wrapper">
+                <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+            </div>
+            <h3 class="success-title">Request Received</h3>
+            <p>Your spa appointment reservation request has been submitted successfully.</p>
+            <p>Our receptionist will call you within 2 hours during active working hours (9:00 AM - 10:00 PM) to confirm your slot at Koramangala arcade.</p>
+            <button class="btn btn-primary" onclick="closeModal('success-modal')">Close Window</button>
+        </div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+</body>
+</html>
